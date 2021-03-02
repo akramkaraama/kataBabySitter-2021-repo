@@ -32,4 +32,4 @@ To run these projects:
     - For the KataBabySitter_UI application to work, you need to have the KataBabySitter_BackEnd application running.
 
 
-I have developed this application using 
+I have developed this same application before in 2018. But now, I am using Angular for the front-end application.
