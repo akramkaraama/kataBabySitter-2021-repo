@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "KataBabySitter_BOL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/KataBabySitter_BOL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KataBabySitter_BOL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KataBabySitter_BOL/1.0.0": {
+      "type": "project",
+      "path": "../KataBabySitter_BOL/KataBabySitter_BOL.csproj",
+      "msbuildProject": "../KataBabySitter_BOL/KataBabySitter_BOL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "KataBabySitter_BOL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\young\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\young\\source\\repos\\kataBabySitter-2021-repo\\KataBabySitter_BackEnd\\KataBabySitter_BLL\\KataBabySitter_BLL.csproj",
+      "projectName": "KataBabySitter_BLL",
+      "projectPath": "C:\\Users\\young\\source\\repos\\kataBabySitter-2021-repo\\KataBabySitter_BackEnd\\KataBabySitter_BLL\\KataBabySitter_BLL.csproj",
+      "packagesPath": "C:\\Users\\young\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\young\\source\\repos\\kataBabySitter-2021-repo\\KataBabySitter_BackEnd\\KataBabySitter_BLL\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\young\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\young\\source\\repos\\kataBabySitter-2021-repo\\KataBabySitter_BackEnd\\KataBabySitter_BOL\\KataBabySitter_BOL.csproj": {
+              "projectPath": "C:\\Users\\young\\source\\repos\\kataBabySitter-2021-repo\\KataBabySitter_BackEnd\\KataBabySitter_BOL\\KataBabySitter_BOL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
